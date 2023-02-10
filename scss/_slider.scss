@@ -1,0 +1,21 @@
+.slider{
+    display: flex;
+    justify-content: center;
+    #{&}_img1{
+        margin-top: -100px;
+        border-radius: 30px;
+        height: 200px;
+        width: 200px;
+        padding: 20px;
+    }
+    #{&}_img2{
+        @extend .slider_img1;
+    }
+
+
+#{&}_img3{
+    @extend .slider_img1;
+}
+
+}
+

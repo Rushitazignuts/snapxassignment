@@ -1,0 +1,31 @@
+ .bgimg{  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTbJ6q6nCvC-F8ctwjE8F_gh176HK1p-EcKg&usqp=CAU");
+    border: 1px solid black;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    #{&}_upr-word{
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+
+        #{&}_flex{
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
+} 
+
+.button{
+    border-radius: 5px;
+    padding: 5px;
+    border-color: black;
+    color: black;
+
+}
+@media screen and (max-width: 400px) {
+    .bgimg {
+height: 500px;
+    }
+  }
+  
