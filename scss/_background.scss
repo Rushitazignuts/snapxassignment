@@ -1,4 +1,4 @@
- .bgimg{  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTbJ6q6nCvC-F8ctwjE8F_gh176HK1p-EcKg&usqp=CAU");
+ .bgimg{  background-image: url("../../image/headerbg.jpg");
     border: 1px solid black;
     height: 80vh;
     background-repeat: no-repeat;
@@ -8,6 +8,17 @@
         color: white;
         text-align: center;
         margin-top: 50px;
+        h1{
+            margin-top: 100px;
+            
+            span{
+                color: $primary-color;
+            }
+        }
+        p{
+            
+            border-top: 1px solid white;
+        }
 
         #{&}_flex{
             flex-direction: row;
@@ -17,10 +28,11 @@
 } 
 
 .button{
-    border-radius: 5px;
-    padding: 5px;
-    border-color: black;
-    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: white;
+    color: white;
+    background-color: transparent;
 
 }
 @media screen and (max-width: 400px) {
