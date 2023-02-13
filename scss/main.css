@@ -47,11 +47,6 @@
   background-color: transparent;
 }
 
-/* @media screen and (max-width: 400px) {
-  .bgimg {
-    height: 500px;
-  }
-} */
 .slider {
   display: flex;
   justify-content: center;
