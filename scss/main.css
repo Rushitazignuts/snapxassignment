@@ -14,7 +14,7 @@
 }
 
 .bgimg {
-  background-image: url("../../image/headerbg.jpg");
+  background-image: url("../image/headerbg.jpg");
   border: 1px solid black;
   height: 100vh !important;
   background-repeat: no-repeat;
